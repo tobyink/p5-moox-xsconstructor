@@ -53,7 +53,8 @@ sub setup_for {
 	my %spec = %{ Moo->_constructor_maker_for($klass)->all_attribute_specs };
 	return unless $self->is_suitable_class($klass, \%spec);
 	
-	my @optlist = map {
+	my @optlist =
+		map {
 			my $attrbang = my $attr = $_;
 			$attrbang .= '!' if $spec{$attr}{required};
 			$spec{$attr}{isa} ? ($attrbang, $spec{$attr}{isa}) : ($attrbang);
