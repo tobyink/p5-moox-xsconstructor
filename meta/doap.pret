@@ -4,11 +4,11 @@
 
 `MooX-XSConstructor`
 	:programming-language "Perl" ;
-	:shortdesc            "a module that does something-or-other";
+	:shortdesc            "glue between Moo and Class::XSConstructor";
 	:homepage             <https://metacpan.org/release/MooX-XSConstructor>;
 	:download-page        <https://metacpan.org/release/MooX-XSConstructor>;
 	:bug-database         <http://rt.cpan.org/Dist/Display.html?Queue=MooX-XSConstructor>;
-#	:repository           [ a :GitRepository; :browse <https://github.com/tobyink/p5-moox-xsconstructor> ];
+	:repository           [ a :GitRepository; :browse <https://github.com/tobyink/p5-moox-xsconstructor> ];
 	:created              2018-06-20;
 	:license              <http://dev.perl.org/licenses/>;
 	:maintainer           cpan:TOBYINK;
