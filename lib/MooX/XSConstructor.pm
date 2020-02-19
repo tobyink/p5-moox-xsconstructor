@@ -5,7 +5,7 @@ use warnings;
 package MooX::XSConstructor;
 
 our $AUTHORITY = 'cpan:TOBYINK';
-our $VERSION   = '0.001';
+our $VERSION   = '0.002';
 
 use Moo 1.006000 ();
 use Scalar::Util qw(blessed);
