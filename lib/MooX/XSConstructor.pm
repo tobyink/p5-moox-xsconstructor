@@ -18,6 +18,7 @@ sub is_suitable_class {
 	my ($klass, $maybe_spec) = @_;
 	
 	my $ba = $klass->can('BUILDARGS');
+	return if !$ba;
 	return if $ba != \&Moo::Object::BUILDARGS;
 	return if $klass->can('FOREIGNBUILDARGS');
 	
