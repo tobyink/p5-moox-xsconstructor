@@ -10,3 +10,9 @@
 		item "Fix warning when inheriting from a non-Moo base class."^^Bugfix;
 	].
 
+`MooX-XSConstructor 0.003000 cpan:TOBYINK`
+	issued  2026-01-13;
+	changeset [
+		item "Use more recent version of Class::XSConstructor which supports more features of Moo, so should be able to provide XS constructors almost always."^^Update;
+		item "Also create an XS DESTROY method."^^Update;
+	].

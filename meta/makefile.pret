@@ -4,14 +4,15 @@
 
 `MooX-XSConstructor`
 	:runtime-requirement    [ :on "perl 5.008001"^^:CpanId ];
-	:runtime-requirement    [ :on "Moo 1.0060000"^^:CpanId ];
-	:runtime-requirement    [ :on "Class::XSConstructor 0.007"^^:CpanId ];
+	:runtime-requirement    [ :on "Moo 2.004000"^^:CpanId ];
+	:runtime-requirement    [ :on "Class::XSConstructor 0.018001"^^:CpanId ];
 	:runtime-requirement    [ :on "Hook::AfterRuntime"^^:CpanId ];
 	:runtime-recommendation [ :on "Types::Standard 1.000000"^^:CpanId ];
 	:runtime-recommendation [ :on "Type::Tiny::XS"^^:CpanId ];
 	:test-requirement       [ :on "Test::More 0.96"^^:CpanId ];
 	:test-requirement       [ :on "Test::Warnings"^^:CpanId ];
 	:test-requirement       [ :on "Test::Fatal"^^:CpanId ];
+	:test-requirement       [ :on "Test::Requires"^^:CpanId ];
 	:develop-recommendation [ :on "Dist::Inkt 0.001"^^:CpanId ];
 	.
 
