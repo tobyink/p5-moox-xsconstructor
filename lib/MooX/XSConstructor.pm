@@ -269,7 +269,7 @@ L<http://rt.cpan.org/Dist/Display.html?Queue=MooX-XSConstructor>.
 
 =head1 SEE ALSO
 
-L<Moo>, L<Class::XSConstructor>.
+L<Moo>, L<Class::XSConstructor>, L<MooseX::XSConstructor>, L<Marlin>.
 
 You may also be interested in L<Class::XSAccessor>. Moo already includes
 all the glue to interface with that, so a MooX module like this one isn't
