@@ -16,3 +16,10 @@
 		item "Use more recent version of Class::XSConstructor which supports more features of Moo, so should be able to provide XS constructors almost always."^^Update;
 		item "Also create an XS DESTROY method."^^Update;
 	].
+
+`MooX-XSConstructor 0.003001 cpan:TOBYINK`
+	issued  2026-01-17;
+	changeset [
+		item "Include more SEE ALSO links."^^Documentation;
+		item "Bump Class::XSConstructor dependency."^^Packaging;
+	].

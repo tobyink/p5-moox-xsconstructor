@@ -5,7 +5,7 @@ use warnings;
 package MooX::XSConstructor;
 
 our $AUTHORITY = 'cpan:TOBYINK';
-our $VERSION   = '0.003000';
+our $VERSION   = '0.003001';
 
 use Moo 2.004000 ();
 use Hook::AfterRuntime;
