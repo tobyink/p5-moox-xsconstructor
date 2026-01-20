@@ -23,3 +23,10 @@
 		item "Include more SEE ALSO links."^^Documentation;
 		item "Bump Class::XSConstructor dependency."^^Packaging;
 	].
+
+`MooX-XSConstructor 0.003002 cpan:TOBYINK`
+	issued  2026-01-20;
+	changeset [
+		item "Bump Class::XSConstructor dependency for FOREIGNBUILDARGS fix."^^Bugfix;
+		item "Better detection of what should be considered a foreign class than Class::XSConstructor has built in."^^Change;
+	].
